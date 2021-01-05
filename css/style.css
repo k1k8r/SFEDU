@@ -1,0 +1,61 @@
+body {
+	background-color: var(--main-bgcolor);
+	color: var(--main-text-color);
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* css переменные приложения */
+:root {
+	/* Переменные цвета всего приложения */
+	--subtitle-text-color: #2763fd;
+	--main-bgcolor: #353e47;
+	--main-container-color: #fff;
+	--main-text-color: #333;
+	--span-text-color: #a86060;
+
+	/* Переменные цвета кнопок */
+	--button-text-color: #333;
+	--button-bgcolor: #fff;
+
+	/* Переменные отступов */
+	--base-size-s: 4px;
+	--base-size-m: 8px;
+	--base-size-l: 12px;
+	--base-size-xl: 16px;
+}
+
+.header {
+	position: sticky;
+	width: 1124px;
+	background-color: var(--main-bgcolor);
+	margin: 0 auto;
+	margin-top: 7px;
+	top: 0;
+}
+
+.header-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-menu li {
+	list-style: none;
+	font-size: 14px;
+	font-weight: 500;
+	color: #eee;
+	padding: 0 25px 0 25px;
+}
