@@ -1,0 +1,43 @@
+@import url(_header.css);
+
+body {
+	background-color: var(--main-bgcolor);
+	color: var(--main-text-color);
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* css переменные приложения */
+:root {
+	/* Переменные цвета всего приложения */
+	--subtitle-text-color: #2763fd;
+	--main-bgcolor: #353e47;
+	--main-container-color: #fff;
+	--main-text-color: #333;
+	--span-text-color: #a86060;
+
+	/* Переменные цвета кнопок */
+	--button-text-color: #333;
+	--button-bgcolor: #fff;
+
+	/* Переменные отступов */
+	--base-size-s: 4px;
+	--base-size-m: 8px;
+	--base-size-l: 12px;
+	--base-size-xl: 16px;
+}
