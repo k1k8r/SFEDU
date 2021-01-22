@@ -1,3 +1,5 @@
+@import url(_header.css);
+
 body {
 	background-color: var(--main-bgcolor);
 	color: var(--main-text-color);
@@ -34,28 +36,4 @@ li {
 	--base-size-m: 8px;
 	--base-size-l: 12px;
 	--base-size-xl: 16px;
-}
-
-.header {
-	position: sticky;
-	width: 1124px;
-	background-color: var(--main-bgcolor);
-	margin: 0 auto;
-	margin-top: 7px;
-	top: 0;
-}
-
-.header-menu {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.header-menu li {
-	list-style: none;
-	font-size: 14px;
-	font-weight: 500;
-	color: #eee;
-	padding: 0 25px 0 25px;
 }
