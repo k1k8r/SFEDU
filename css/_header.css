@@ -1,0 +1,51 @@
+.header {
+	position: sticky;
+	background-color: var(--main-bgcolor);
+	margin: 0 auto;
+	margin-top: calc(var(--base-size-m) - 1px);
+	top: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	width: 1124px;
+	margin: 0 auto;
+}
+
+.menu {
+	display: flex;
+	margin: 0 0 0 calc(var(--base-size-l) * 8.3);
+}
+
+.menu li {
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+	color: #eee;
+	padding: 0 calc(var(--base-size-s) * 10) 0 calc(var(--base-size-l) + 1px);
+}
+
+/* Начало адаптива шапки */
+
+@media (max-width: 1024px) {
+	.menu li {
+		font-size: 16px;
+		padding: 0 18px 0 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.logo-sfedu {
+		display: none;
+	}
+
+	.menu {
+		margin: 20px 0 0 15px;
+	}
+
+	.menu li {
+		font-size: 16px;
+		padding: 0 10px 0 10px;
+	}
+}
