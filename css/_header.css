@@ -4,9 +4,10 @@
 	margin: 0 auto;
 	margin-top: calc(var(--base-size-m) - 1px);
 	top: 0;
+	z-index: 50;
 }
 
-.container {
+.header-container {
 	display: flex;
 	align-items: center;
 	width: 1124px;
