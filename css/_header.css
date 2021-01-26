@@ -34,3 +34,18 @@
 		padding: 0 18px 0 14px;
 	}
 }
+
+@media (max-width: 768px) {
+	.logo-sfedu {
+		display: none;
+	}
+
+	.menu {
+		margin: 20px 0 0 15px;
+	}
+
+	.menu li {
+		font-size: 16px;
+		padding: 0 10px 0 10px;
+	}
+}
