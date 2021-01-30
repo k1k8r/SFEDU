@@ -22,6 +22,19 @@ li {
 	margin: 0;
 	padding: 0;
 }
+.important {
+	color: #a86060;
+}
+
+.bold {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #2763fd;
+}
 
 /* css переменные приложения */
 :root {
@@ -41,8 +54,4 @@ li {
 	--base-size-m: 8px;
 	--base-size-l: 12px;
 	--base-size-xl: 16px;
-}
-
-.important {
-	color: #a86060;
 }

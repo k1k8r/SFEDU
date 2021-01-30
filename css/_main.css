@@ -12,7 +12,7 @@
 	background-color: #ffffff;
 	align-items: center;
 	margin: 0 auto;
-	padding: 20px 12px 20px 12px;
+	padding: 20px;
 	border-radius: 6px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -44,9 +44,88 @@
 .student-container {
 	width: 1000px;
 	background-color: #ffffff;
-	align-items: center;
 	margin: 0 auto;
-	padding: 20px 12px 20px 12px;
+	margin-top: 30px;
+	padding: 20px;
 	border-radius: 6px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.student-info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.student-title {
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #333333;
+	margin: 0 0 10px 0;
+}
+
+.student-info__description {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.wrapper {
+	display: flex;
+	margin: 15px 0 16px 0;
+}
+
+.mail,
+.phone {
+	display: flex;
+	margin-bottom: 6px;
+}
+
+.teacher-title {
+	font-size: 16px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.teacher-info {
+	font-size: 16px;
+	font-weight: 700;
+	color: #333333;
+	margin-right: 10px;
+}
+
+.teacher-info__icons {
+	margin-right: 4px;
+}
+
+.teacher-info__name {
+	margin-bottom: 5px;
+}
+
+.teacher-info__workplace {
+	margin-bottom: 12px;
+}
+
+.teacher-photo {
+	width: 94pt;
+	height: 122pt;
+	border-radius: 6px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teacher-info__page {
+	font-style: italic;
+}
+
+.student-info__words {
+	font-size: 19px;
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: 9px;
+}
+
+.read-more {
+	font-size: 30px;
+	font-weight: 700;
 }
