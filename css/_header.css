@@ -153,6 +153,7 @@
 	.header-list {
 		display: block;
 	}
+
 	.header-list li {
 		margin: 0 0 calc(var(--base-size-xl) + 4px) 0;
 	}
