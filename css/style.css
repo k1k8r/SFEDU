@@ -1,16 +1,27 @@
 @import url(_header.css);
 @import url(_main.css);
 
+img {
+	max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html,
 body {
+	height: 100%;
 	background-color: var(--main-bgcolor);
 	color: var(--main-text-color);
 	font-family: "Open Sans", sans-serif;
 	margin: 0;
 	padding: 0;
-}
-
-img {
-	max-width: 100%;
 }
 
 h1,
@@ -27,12 +38,19 @@ li {
 }
 
 .bold {
-	font-size: 16px;
 	font-weight: 700;
 }
 
 a {
 	text-decoration: none;
+}
+
+link {
+	text-decoration: none;
+	color: #2763fd;
+}
+
+.blue {
 	color: #2763fd;
 }
 

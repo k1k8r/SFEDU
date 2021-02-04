@@ -1,14 +1,14 @@
 .main {
-	width: 1140px;
+	max-width: 1200px;
 	background-color: #eeeeee;
 	margin: 0 auto;
 	border-radius: 6px;
 	padding: 30px 0 30px 0;
-	margin-top: 10px;
+	margin-top: 120px;
 }
 
 .program-container {
-	width: 1000px;
+	max-width: 1100px;
 	background-color: #ffffff;
 	align-items: center;
 	margin: 0 auto;
@@ -42,7 +42,7 @@
 }
 
 .student-container {
-	width: 1000px;
+	max-width: 1100px;
 	background-color: #ffffff;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -67,7 +67,7 @@
 }
 
 .student-info__description {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 600;
 }
 
@@ -83,13 +83,13 @@
 }
 
 .teacher-title {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #333333;
 }
 
 .teacher-info {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #333333;
 	margin-right: 10px;
@@ -119,13 +119,176 @@
 }
 
 .student-info__words {
-	font-size: 19px;
+	font-size: 25px;
 	font-weight: 700;
 	font-style: italic;
-	margin-bottom: 9px;
+	margin-bottom: 30px;
 }
 
 .read-more {
+	font-size: 34px;
+	font-weight: 700;
+	margin-top: 40px;
+}
+
+.student-program__title {
+	font-style: italic;
 	font-size: 30px;
 	font-weight: 700;
+	text-align: center;
+	color: #333333;
+	margin: 30px 0 20px 0;
+}
+
+.student-program__description {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: justify;
+	color: #333333;
+	margin-bottom: 18px;
+}
+
+.content-container {
+	max-width: 1100px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-title {
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #333333;
+	margin: 0 0 15px 0;
+}
+
+.content-lists {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0 20px;
+}
+
+.content-subtitle {
+	font-size: 20px;
+	font-weight: 700;
+	color: #2763fd;
+	margin-bottom: 18px;
+}
+
+.content-list {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.content-list li {
+	margin-bottom: 18px;
+}
+
+.personnel-container {
+	max-width: 1100px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.personnel-title {
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #333333;
+	margin: 0 0 10px 0;
+}
+
+.personnel-description {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: justify;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.form-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.form-title {
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+	margin: 0 0 10px 0;
+}
+
+.form-subtitle {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 300px;
+	font-size: 17px;
+	font-weight: 600;
+	border: none;
+	border-radius: 6px;
+	outline: none;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 8px 0 8px 8px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+input::placeholder {
+	color: #333333;
+}
+
+.button {
+	width: 150px;
+	font-size: 20px;
+	font-weight: 800;
+	border: none;
+	border-radius: 6px;
+	outline: none;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 8px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.footer {
+	background-color: #262629;
+}
+
+.footer-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding: 17px 0;
+}
+
+.footer-link {
+	font-size: 18px;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
 }

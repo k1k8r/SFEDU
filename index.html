@@ -9,32 +9,35 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,700&display=swap"
 		rel="stylesheet">
-	rel="stylesheet">
 	<title>Описание программы</title>
 </head>
 
 <body>
 	<header class="header">
 		<div class="header-container">
-			<div class="header-logo">
-				<a href="https://sfedu.ru/"><img src="img/header/logo-sfedu.png" class="logo-sfedu" alt="Логотип ЮФУ"></a>
+			<div class="header-body">
+				<a href="https://sfedu.ru/"><img class="header-logo" src="img/header/logo-sfedu.png" alt="Логотип ЮФУ"></a>
+				<div class="header-burger">
+					<span></span>
+				</div>
+				<nav class="header-menu">
+					<ul class="header-list">
+						<li><a class="header-link" href="#main-program">Программа</a></li>
+						<li><a class="header-link" href="#main-student">Абитуриентам</a></li>
+						<li><a class="header-link" href="#main-content">Содержание</a></li>
+						<li><a class="header-link" href="#main-personnel">Кадровый состав</a></li>
+						<li><a class="header-link" href="#form">Обратная связь</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav class="header-menu">
-				<ul class="menu">
-					<li>Программа</li>
-					<li>Абитуриентам</li>
-					<li>Содержание</li>
-					<li>Кадровый состав</li>
-					<li>Обратная связь</li>
-				</ul>
-			</nav>
 		</div>
 	</header>
 
 	<section class="main">
-		<div class="program">
-			<div class="program-container">
-				<h1 class="program-title">Образовательная программа <br>"Теория и методика работы с лицами <br>с
+		<div class="main-program">
+			<div class=" program-container">
+				<h1 id="main-program" class="program-title">Образовательная программа <br>"Теория и методика работы с лицами
+					<br>с
 					расстройствами
 					аутистического спектра"
 				</h1>
@@ -65,7 +68,7 @@
 			</div>
 		</div>
 
-		<div class="student">
+		<div id="main-student">
 			<div class="student-container">
 				<h1 class="student-title">Общая информация о проекте</h1>
 				<div class="student-info">
@@ -104,7 +107,8 @@
 									<img class="teacher-info__icons" src="img/program-info/program-phone.svg" alt="">
 									<p class="teacher-info__phone">+7-904-440-60-47</p>
 								</div>
-								<a href="https://sfedu.ru/www/stat_pages22.show?p=UNI/s1/D&params=(p_per_id=%3E-4001373)"
+								<a class="link"
+									href="https://sfedu.ru/www/stat_pages22.show?p=UNI/s1/D&params=(p_per_id=%3E-4001373)"
 									class="teacher-info__page">Страница преподавателя</a>
 							</div>
 							<div class="student-info__photo">
@@ -116,12 +120,161 @@
 							Научитесь помогать им сегодня, чтобы <br>завтра особенные дети смогли сами <br>открыть дверь в
 							будущее!!!
 						</p>
-						<a class="read-more" href="#">Читать подробнее...</a>
+						<a class="read-more link" href="#">Читать подробнее...</a>
+					</div>
+				</div>
+				<div class="student-program">
+					<h1 class="student-program__title">Преимущества образовательной программы:</h1>
+					<p class="student-program__description"><span class="important">Возможность овладеть уникальными
+							компетенциями</span>, необходимыми для
+						работы с лицами, имеющими расстройства аутистического спектра, в условиях специальных и инклюзивных
+						образовательных организаций, а также в организациях, специфика деятельности которых ориентирована на
+						оказание медико-социальной помощи и психолого-педагогической поддержки лицам данной категории.</p>
+					<p class="student-program__description">
+						<span class="important">Активное включение студентов в совместную проектную деятельность с
+							потенциальными работодателями</span> в
+						рамках научно-исследовательской лаборатории теории и практики образования лиц с расстройствами
+						аутистического спектра, что гарантирует высокие образовательные результаты выпускника.
+					</p>
+					<p class="student-program__description">
+						<span class="important">Трудоустройство выпускников</span> поддерживается заинтересованностью
+						стратегических партнеров университета в
+						подготовке квалифицированных кадров, готовых к работе с лицами с расстройствами аутистического
+						спектра, и их готовностью обеспечить студентов рабочими местами <span class="important">ещё в период
+							обучения</span>. Выпускники
+						образовательной программы востребованы в специальных и инклюзивных образовательных организациях,
+						центрах развития детей, реабилитационных центрах, общественных организациях, могут вести частную
+						практику.
+					</p>
+					<p class="student-program__description">
+						<span class="important">Максимальное использование в реализации образовательной программы электронного
+							обучения и
+							дистанционных образовательных технологий</span>, что позволяет учитывать личные возможности
+						студентов из
+						разных регионов Российской Федерации и иностранных студентов.
+					</p>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="main-content">
+			<div class="content-container">
+				<h1 class="content-title">Содержание образовательной программы</h1>
+				<div class="content-lists">
+					<div class="content-list-1">
+						<h2 class="content-subtitle">БАЗОВЫЕ ДИСЦИПЛИНЫ:</h2>
+						<ul class="content-list">
+							<li><span class="important">С</span>овременные проблемы<br> дефектологической науки и образования.
+							</li>
+							<li><span class="important">О</span>собенности специального и<br> инклюзивного образования лиц с
+								<br>расстройствами аутистического
+								спектра.
+							</li>
+							<li><span class="important">П</span>роектирование и организация <br>коррекционной работы с детьми с
+								<br>расстройствами
+								аутистического
+								спектра.
+							</li>
+							<li><span class="bold"><span class="important">В</span>се виды практик реализуются<br>
+									в структуре Академии психологии и <br>педагогики Южного федерального <br>университета и на
+									базе<br>
+									организаций-партнеров</span></li>
+						</ul>
+					</div>
+					<div class="content-list-2">
+						<h2 class="content-subtitle">БАЗОВЫЕ ДИСЦИПЛИНЫ:</h2>
+						<ul class="content-list">
+							<li><span class="important">Т</span>ьюторские практики в образовании лиц с <br>расстройствами
+								аутистического спектра.</li>
+							<li><span class="important">П</span>сихолого-педагогическая диагностика и <br>коррекция детей с
+								расстройствами <br>аутистического
+								спектра.
+							</li>
+							<li><span class="important">П</span>роектирование адаптированных <br>образовательных программ для
+								<br>обучающихся с РАС.
+							</li>
+							<li><span class="important">Т</span>ехнологии социокультурной <br>реабилитации лиц с расстройствами
+								<br>аутистического спектра.
+							</li>
+							<li><span class="important">А</span>льтернативная коммуникация лиц с <br>расстройствами
+								аутистического
+								спектра.</li>
+							<li><span class="important">О</span>рганизация работы с семьей ребенка с <br>расстройствами
+								аутистического спектра.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div id="main-personnel">
+			<div class="personnel-container">
+				<h1 class="personnel-title">Кадровый состав</h1>
+				<p class="personnel-description"><span class="blue">Горюнова Лилия Васильевна</span> – доктор
+					педагогических
+					наук,
+					доцент, заведующий кафедрой инклюзивного образования и социально-педагогической реабилитации Академии
+					психологии и педагогики Южного федерального университета </p>
+				<p class="personnel-description"><span class="blue">Маллаев Джафар Михайлович</span> - доктор педагогических
+					наук,
+					член-корреспондент
+					Российской академии образования, заведующий кафедры коррекционной педагогики и специальной
+					психологии
+					Дагестанского государственного педагогического университета
+				</p>
+				<p class="personnel-description"><span class="blue">Гудина Татьяна Викторовна</span> – доктор
+					педагогических наук, доцент,
+					профессор
+					кафедры коррекционной педагогики Череповецкого государственного университета</p>
+				<p class="personnel-description"><span class="blue">Скарга Вероника Владимировна</span> - начальник отдела
+					специального
+					образования и
+					здоровьесбережения в сфере образования Министерства общего и профессионального образования
+					Ростовской
+					области</p>
+				<p class="personnel-description"><span class="blue">Дорохина Алла Владимировна</span> – директор ГКОУ РО
+					Ростовская специальная
+					школа-интернат №42, координатор Регионального ресурсного центра по комплексному сопровождению детей
+					с
+					расстройствами аутистического спектра
+				</p>
+				<p class="personnel-description"><span class="blue">Виневская Анна Вячеславовна</span> - кандидат
+					педагогических наук, доцент
+					Таганрогского института им. А.П. Чехова</p>
+				<p class="personnel-description"><span class="blue">Тимченко Екатерина Сергеевна</span>  - кандидат
+					педагогических наук, доцент
+					кафедры инклюзивного образования и социально-педагогической реабилитации Академии психологии и
+					педагогики
+					Южного федерального университета
+				</p>
+			</div>
+		</div>
 	</section>
+
+	<section id="form">
+		<div class="form-container">
+			<h1 class="form-title">Есть вопросы?</h1>
+			<p class="form-subtitle">Оставьте свои контактные данные, и <br>мы обязательно с Вами свяжемся</p>
+			<form action="#">
+				<input type="text" name="user-FIO" placeholder="ФИО">
+				<input type="email" name="user-email" placeholder="Email">
+				<input type="tel" name="user-phone" placeholder="Номер телефона">
+				<button class="button">Отправить</button>
+			</form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer-container">
+			<p class="footer-link">www.sfedu.ru</p>
+		</div>
+	</footer>
+
+	<!-- Подключил библиотеку jquery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<!-- Подключил скрипт JS -->
+	<script src="js/script.js"></script>
 </body>
 
 </html>
