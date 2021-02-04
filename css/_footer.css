@@ -5,13 +5,13 @@
 .footer-container {
 	max-width: 1100px;
 	margin: 0 auto;
-	margin-top: 80px;
-	padding: 17px 0;
+	margin-top: calc(var(--base-size-m) * 10);
+	padding: calc(var(--base-size-xl) + 1px) 0;
 }
 
 .footer-link {
 	font-size: 18px;
 	font-weight: 800;
-	color: #fff;
+	color: var(--main-container-color);
 	text-align: center;
 }

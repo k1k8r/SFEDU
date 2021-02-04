@@ -3,16 +3,16 @@
 	background-color: #eeeeee;
 	margin: 0 auto;
 	border-radius: 6px;
-	padding: 30px 0 30px 0;
-	margin-top: 120px;
+	padding: calc(var(--base-size-xl) * 2 - 2px) 0 calc(var(--base-size-xl) * 2 - 2px) 0;
+	margin-top: calc(var(--base-size-l) * 10);
 }
 
 .program-container {
 	max-width: 1100px;
-	background-color: #ffffff;
+	background-color: var(--main-container-color);
 	align-items: center;
 	margin: 0 auto;
-	padding: 20px;
+	padding: calc(var(--base-size-xl) + 4px);
 	border-radius: 6px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -22,15 +22,15 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
-	color: #333333;
-	margin: 0 0 10px 0;
+	color: var(--main-text-color);
+	margin: 0 0 calc(var(--base-size-m) + 2px) 0;
 }
 
 .program-description {
 	font-size: 20px;
 	font-weight: 600;
 	text-align: justify;
-	color: #333333;
+	color: var(--main-text-color);
 }
 
 .program-important {
@@ -38,15 +38,15 @@
 	font-weight: 700;
 	text-indent: 30px;
 	text-align: justify;
-	margin: 20px 0 0 0;
+	margin: calc(var(--base-size-xl) + 4px) 0 0 0;
 }
 
 .student-container {
 	max-width: 1100px;
-	background-color: #ffffff;
+	background-color: var(--main-container-color);
 	margin: 0 auto;
-	margin-top: 30px;
-	padding: 20px;
+	margin-top: calc(var(--base-size-xl) * 2 - 2px);
+	padding: calc(var(--base-size-xl) + 4px);
 	border-radius: 6px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -62,8 +62,8 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
-	color: #333333;
-	margin: 0 0 10px 0;
+	color: var(--main-text-color);
+	margin: 0 0 calc(var(--base-size-m) + 2px) 0;
 }
 
 .student-info__description {
@@ -73,38 +73,38 @@
 
 .wrapper {
 	display: flex;
-	margin: 15px 0 16px 0;
+	margin: calc(var(--base-size-xl) - 1px) 0;
 }
 
 .mail,
 .phone {
 	display: flex;
-	margin-bottom: 6px;
+	margin-bottom: calc(var(--base-size-s) + 2px);
 }
 
 .teacher-title {
 	font-size: 20px;
 	font-weight: 700;
-	color: #333333;
+	color: var(--main-text-color);
 }
 
 .teacher-info {
 	font-size: 20px;
 	font-weight: 700;
-	color: #333333;
-	margin-right: 10px;
+	color: var(--main-text-color);
+	margin-right: calc(var(--base-size-m) + 2px);
 }
 
 .teacher-info__icons {
-	margin-right: 4px;
+	margin-right: var(--base-size-s);
 }
 
 .teacher-info__name {
-	margin-bottom: 5px;
+	margin-bottom: calc(var(--base-size-s) + 1px);
 }
 
 .teacher-info__workplace {
-	margin-bottom: 12px;
+	margin-bottom: var(--base-size-l);
 }
 
 .teacher-photo {
@@ -122,13 +122,13 @@
 	font-size: 25px;
 	font-weight: 700;
 	font-style: italic;
-	margin-bottom: 30px;
+	margin-bottom: calc(var(--base-size-xl) * 2 - 2px);
 }
 
 .read-more {
 	font-size: 34px;
 	font-weight: 700;
-	margin-top: 40px;
+	margin-top: calc(var(--base-size-m) * 10);
 }
 
 .student-program__title {
@@ -136,24 +136,24 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
-	color: #333333;
-	margin: 30px 0 20px 0;
+	color: var(--main-text-color);
+	margin: calc(var(--base-size-xl) * 2 - 2px) 0 calc(var(--base-size-xl) + 4px) 0;
 }
 
 .student-program__description {
 	font-size: 20px;
 	font-weight: 600;
 	text-align: justify;
-	color: #333333;
-	margin-bottom: 18px;
+	color: var(--main-text-color);
+	margin-bottom: calc(var(--base-size-xl) + 2px);
 }
 
 .content-container {
 	max-width: 1100px;
-	background-color: #ffffff;
+	background-color: var(--main-container-color);
 	margin: 0 auto;
 	margin-top: 30px;
-	padding: 20px;
+	padding: calc(var(--base-size-xl) + 4px);
 	border-radius: 6px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -163,22 +163,22 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
-	color: #333333;
-	margin: 0 0 15px 0;
+	color: var(--main-text-color);
+	margin: 0 0 calc(var(--base-size-xl) - 1px) 0;
 }
 
 .content-lists {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	margin: 0 20px;
+	margin: 0 calc(var(--base-size-xl) + 4px);
 }
 
 .content-subtitle {
 	font-size: 20px;
 	font-weight: 700;
-	color: #2763fd;
-	margin-bottom: 18px;
+	color: var(--subtitle-text-color);
+	margin-bottom: calc(var(--base-size-xl) + 2px);
 }
 
 .content-list {
@@ -187,15 +187,15 @@
 }
 
 .content-list li {
-	margin-bottom: 18px;
+	margin-bottom: calc(var(--base-size-xl) + 2px);
 }
 
 .personnel-container {
 	max-width: 1100px;
-	background-color: #ffffff;
+	background-color: var(--main-container-color);
 	margin: 0 auto;
-	margin-top: 30px;
-	padding: 20px;
+	margin-top: calc(var(--base-size-xl) * 2 - 2px);
+	padding: calc(var(--base-size-xl) + 4px);
 	border-radius: 6px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -205,22 +205,22 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
-	color: #333333;
-	margin: 0 0 10px 0;
+	color: var(--main-text-color);
+	margin: 0 0 calc(var(--base-size-m) + 2px) 0;
 }
 
 .personnel-description {
 	font-size: 20px;
 	font-weight: 600;
 	text-align: justify;
-	color: #333333;
-	margin-bottom: 10px;
+	color: var(--main-text-color);
+	margin-bottom: calc(var(--base-size-m) + 2px);
 }
 
 .form-container {
 	max-width: 1100px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: calc(var(--base-size-xl) * 2 - 2px);
 }
 
 .form-title {
@@ -228,16 +228,16 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
-	color: #fff;
-	margin: 0 0 10px 0;
+	color: var(--main-container-color);
+	margin: 0 0 calc(var(--base-size-m) + 2px) 0;
 }
 
 .form-subtitle {
 	font-size: 20px;
 	font-weight: 600;
 	text-align: center;
-	color: #fff;
-	margin-bottom: 20px;
+	color: var(--main-container-color);
+	margin-bottom: calc(var(--base-size-xl) + 4px);
 }
 
 form {
@@ -253,13 +253,13 @@ input {
 	border-radius: 6px;
 	outline: none;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	padding: 8px 0 8px 8px;
+	padding: var(--base-size-m);
 	margin: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: calc(var(--base-size-m) + 2px);
 }
 
 input::placeholder {
-	color: #333333;
+	color: var(--main-text-color);
 }
 
 .button {
@@ -270,7 +270,7 @@ input::placeholder {
 	border-radius: 6px;
 	outline: none;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	padding: 8px;
+	padding: var(--base-size-m);
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: calc(var(--base-size-xl) + 4px);
 }
